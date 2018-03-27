@@ -150,6 +150,22 @@ ol, ul {
   padding: 0;
 }
 
+table {
+  margin: 15px 5px;
+  border-collapse: collapse;
+  text-align: left;
+  
+  thead {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  th, td {
+    border: 1px solid $color-black;
+    padding: 5px 10px;
+  }
+}
+
 /**
  * Text Selection
  */
